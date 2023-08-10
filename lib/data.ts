@@ -24,7 +24,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Education",
     hash: "#experience",
   },
   {
@@ -67,6 +67,7 @@ export const projectsData = [
       "This website is fully functional as a typical e-commerce website, enabling users to add products to their cart and complete the checkout process using credit or debit cards.",
     tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma","shadecn ui","NextAuth"],
     imageUrl: myecomImg,
+    linkUrl: "https://bestmart-admin-xiiw.vercel.app/"
   },
   {
     title: "Admin Dashboard",
@@ -74,6 +75,7 @@ export const projectsData = [
       "MERN Stack Admin Dashboard. Here we can manage the transections and revenue of your  ecom website.",
     tags: ["React", "Node.js", "MongoDb", "Tailwind", "MUI"],
     imageUrl: admindashboardImg,
+    linkUrl: "https://admin-frontend-drt6.onrender.com"
   },
   {
     title: "Movie Recommender",
@@ -81,13 +83,15 @@ export const projectsData = [
       "You have the option to search for your favorite movies and TV shows across a wide range of genres, as well as to explore current trending selections.",
     tags: ["React", "Redux", "TMDB API","MUI"],
     imageUrl: movierecomderImg,
+    linkUrl: "https://ajcinema.vercel.app/"
   },
   {
     title: "Chrome Clone",
     description:
-      "A samll effort to clone chrome search engine to some extent",
+      "A small effort to clone chrome search engine to some extent",
     tags: ["React", "Redux","Google API","MUI"],
     imageUrl: chromecloneImg,
+    linkUrl: "https://ajaybaghel120-google-search.netlify.app/"
   },
 ] as const;
 
