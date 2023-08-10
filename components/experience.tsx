@@ -13,7 +13,7 @@ import { useTheme } from "@/context/theme-context";
 
 
 export default function Education() {
-  const {ref}= useSectionInView('Experience',0.5);
+  const {ref}= useSectionInView('Education',0.5);
   const { theme } = useTheme();
 
   return (
