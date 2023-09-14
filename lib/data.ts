@@ -6,6 +6,7 @@ import chromecloneImg from "@/public/chromeclone.png";
 import movierecomderImg from "@/public/movierecommender.png";
 import admindashboardImg from "@/public/admindashboard.png";
 import myecomImg from "@/public/myecomImg.png"
+import discordImg from "@/public/discord.jpg"
 export const links = [
   {
     name: "Home",
@@ -61,6 +62,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Discord",
+    description:
+      "End-to-end fullstack and real-time discord clone, all with servers, channels, video calls, audio calls, editing and deleting messages as well as member roles.",
+    tags: ["Next.js", "MySQL", "Tailwind","shadecn ui","Socket.io", "Clerk Authentication"],
+    imageUrl: discordImg,
+    linkUrl: "https://mydiscord-production-3233.up.railway.app/"
+  },
   {
     title: "Ecom Website",
     description:
